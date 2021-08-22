@@ -9,12 +9,12 @@ async function mockApi() {
 
 //   .catch((data) => console.log("user Not found"));
 
-function createProfile({  name,avatar,createdAt}) {
+function createProfile({ name, avatar, createdAt }) {
   const info = document.createElement("div");
   info.className = "container";
   info.innerHTML = `
-    <div class="flag-container">
-    <img class="flag" src="${avatar} " width="250px" heigth="150px">
+    <div class="profile-container">
+    <img class="profile" src="${avatar} " width="200px" heigth="100px">
 
     </div>
     <div class="details">
